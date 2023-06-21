@@ -1,0 +1,92 @@
+.cima {background-color: brown;
+    width: 100%;
+    text-align: center;
+}
+.form {
+    background-color: brown;
+}
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color:antiquewhite;
+        margin: 0;
+        padding: 0;
+    }
+    .botaoinicio {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .textocima {
+        margin-top: 10px;
+    }
+    .tables-container {
+        display: flex;
+    }
+    
+
+    table {
+        border-collapse: collapse;
+        margin-bottom: 20px;
+        margin-left: 30px;
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .bingo-number {
+        width: 50px;
+    }
+
+    .marked {
+        background-color: brown;
+    }
+
+    .winning-table {
+        background-color: gray;
+        ;
+    }
+
+    .tie {
+        font-weight: bold;
+        font-size: 16px;
+        margin-left: 10px;
+    }
+
+    .winner {
+        font-weight: bold;
+    }
+
+    #drawn-numbers {
+        margin-top: 20px;
+       
+    }
+    .borda {
+        display: grid;
+justify-content: center;
+align-items: center;
+
+  
+    }
+    .button {
+        background-color: brown;
+    }
+    .baixo {
+        margin-top: 30px;
+        height: 80px;
+        color: brown;
+        margin-top: 100px;
+    }
+    
+      
+      .responsive-table {
+        width: 80%;
+        table-layout: fixed;
+
+      }
+      

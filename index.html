@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .scrollable {
+            overflow: auto;
+            max-height: 200px;
+        }
+
+        .responsive-table {
+            width: 100%;
+            table-layout: fixed;
+        }
+    </style>
+    <title>Bingo</title>
+</head>
+<body>
+    <header class="cima">
+        <h1>Jogo de Bingo</h1>
+    </header>
+
+    <h2>Gerar Tabelas</h2>
+    <form id="form-gerar-tabelas">
+        <label class="textocima" for="player1">Jogador 1: </label>
+        <input class="textocima" type="text" id="player1" required>
+        <br>
+        <label class="textocima" for="player2">Jogador 2: </label>
+        <input class="textocima" type="text" id="player2" required>
+        <br>
+        <label class="textocima" for="player3">Jogador 3: </label>
+        <input class="textocima" type="text" id="player3" required>
+        <br>
+        <input class="button botaoinicio" type="submit" value="Gerar Tabelas">
+    </form>
+
+    <h2>Tabelas do Bingo</h2>
+    <div id="bingo-tables" class="tables-container"></div>
+
+    <button class="button" id="start-game">Iniciar Jogo</button>
+
+    <h2>Números Sorteados</h2>
+    <table class="borda responsive-table" id="drawn-numbers">
+        <tbody id="drawn-numbers-body" class="scrollable"></tbody>
+    </table>
+
+    <button class="button" id="restart-game">Reiniciar Jogo</button>
+    <script src="index.js"></script>
+
+    <footer class="cima baixo">
+    </footer>
+</body>
+</html>
